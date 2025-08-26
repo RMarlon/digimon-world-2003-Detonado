@@ -1,4 +1,4 @@
-import { Intro } from "@/types/Intro";
+import { Intro } from "@/types/Tale";
 
 type Props = {
     info: Intro[];
