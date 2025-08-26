@@ -2,8 +2,8 @@ import { Navmenu } from "@/types/NavMenu";
 
 export const listNav:Navmenu[] = [
     {
-        logo: ['#', 'image/logo.png'],
-        imgNav:'image/gabumon.png',
+        logo: ['#', 'images/logo.png'],
+        imgNav:'images/gabumon.png',
         linkStart: ['#', 'Início'],
         linkHistory: ['#', 'História'],
         linkItems: ['#', 'Itens'],
