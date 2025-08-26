@@ -5,7 +5,7 @@ type Props = {
     head: Navmenu[];
 }
 
-export const Head = ({ head }: Props) => {
+export const MenuNav = ({ head }: Props) => {
     return (
         <>
 
