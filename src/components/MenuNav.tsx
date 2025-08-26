@@ -11,11 +11,11 @@ export const MenuNav = ({ head }: Props) => {
 
             {head.map(item => (
                 <div>
-                    <header className="flex flex-col pl-10 items-center font-digi px-3 py-2 bg-[#005594] md:flex-row md:pl-0 md:justify-between lg:rounded-full shadow shadow-[#8bb97e]"> {/* início header  */}
+                    <header className="flex flex-col items-center font-digi px-3 py-2 bg-[#005594] md:flex-row md:pl-0 md:justify-between lg:rounded-full shadow shadow-[#8bb97e]"> {/* início header  */}
                         <div className="flex items-center ">
 
                             <Link href={item.logo[0]} target="_blank">
-                                <img src={item.logo[1]} alt="" className="w-30 h-30 rounded-full shadow shadow-[#8bb97e] md:ml-4" />
+                                <img src={item.logo[1]} alt="" className="w-30 h-30 rounded-full shadow shadow-[#8bb97e] md:ml-2" />
                             </Link>
 
                         </div>
