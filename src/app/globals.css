@@ -12,6 +12,15 @@
   --font-mono: var(--font-geist-mono);
 }
 
+@theme{
+  --font-digi:Digimon, 'sans-serif';
+}
+
+@font-face {
+  font-family: Digimon;
+  src: url(/public/fonts/DigimonWorldDsRegularFont-Regular.ttf);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
