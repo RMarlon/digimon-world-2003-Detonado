@@ -1,7 +1,9 @@
 import { MenuNav } from "@/components/MenuNav";
 import { Welcome } from "@/components/History";
-import { listIntro } from "@/data/listHistory";
+import { listHistory} from "@/data/listHistory";
 import { listNav } from "@/data/listNav";
+import { Intro } from "@/components/Intro";
+import { listIntro } from "@/data/listIntro";
 
 const Page = () => {
   return (
@@ -12,8 +14,12 @@ const Page = () => {
           <MenuNav head={listNav} />
         </section>
 
+        <section>
+          <Intro opening={listIntro}/>
+        </section>
+
          <section>
-          <Welcome info={listIntro}/>
+          <Welcome info={listHistory}/>
         </section>
 
       </div> {/* end container */}

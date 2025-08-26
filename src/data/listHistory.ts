@@ -1,6 +1,6 @@
 import { Intro } from "@/types/Tale";
 
-export const listIntro: Intro[] = [
+export const listHistory: Intro[] = [
     {
         imgGoma:'images/gomamon.png',
         desc:'Digimon World 2003 é um clássico dos jogos de RPG que mergulha os jogadores em uma jornada emocionante pelo Mundo Digital. Com sua mistura única de exploração, batalhas estratégicas e evolução de monstros, este jogo cativou fãs de todas as idades desde o seu lançamento. Neste detonado completo, vamos percorrer cada fase desta aventura, desde os primeiros passos até os desafios mais avançados. Seja você um novato ansioso para explorar este mundo pela primeira vez ou um veterano em busca de novas estratégias, este guia será seu companheiro indispensável.',
