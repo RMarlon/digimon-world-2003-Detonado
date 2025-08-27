@@ -8,8 +8,8 @@ export const Welcome = ({ info }: Props) => {
     return (
         <>
             {info.map(item => (
-                <>
-                    <div className="my-10 text-2xl  text-gray-400 p-4 text-justify shadow shadow-[#17ccd6]">
+                <div key={item.id}>
+                    <div className="my-10 text-2xl  text-gray-400 p-4 text-justify shadow shadow-[#17ccd6] font-display">
                         <p>
                             <span className="flex items-center">
                                 <img src={item.imgGoma} alt="imagem gomamon" className="w-40" />
@@ -21,12 +21,12 @@ export const Welcome = ({ info }: Props) => {
                                 <img src={item.imgTento} alt="imagem tentonmon" className="w-60" />
                             </span>
 
-                            <span className="text-red-200">
+                            <span className="text-[#d33b49]">
                                 {item.desc1}
                             </span>
                         </p>
                     </div>
-                </>
+                </div>
             ))}
         </>
     );

@@ -1,7 +1,8 @@
 export type Intro = {
-        imgGoma:string;
+        id: number;
+        imgGoma: string;
         desc: string;
         info: string;
         imgTento: string;
-        desc1:string;
+        desc1: string;
 }

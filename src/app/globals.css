@@ -12,13 +12,18 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@theme{
-  --font-digi:Digimon, 'sans-serif';
+@theme {
+  --font-display: 'Digimon WorldDs';
+  --font-display--font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  --font-display--font-variation-settings: "opsz" 32;
 }
 
 @font-face {
-  font-family: Digimon;
-  src: url(/public/fonts/DigimonWorldDsRegularFont-Regular.ttf);
+  font-family: Digimon WorldDs;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url('/public/fonts/DigimonWorldDsRegularFont-Regular.ttf')format('ttf');
 }
 
 @media (prefers-color-scheme: dark) {

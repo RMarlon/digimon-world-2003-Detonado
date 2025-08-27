@@ -7,7 +7,7 @@ import { listIntro } from "@/data/listIntro";
 
 const Page = () => {
   return (
-    <div className="bg-[url(/images/bg-image.png)] h-screen  bg-cover">
+    <div className="bg-[url(/images/bg-image.png)] bg-cover">
       <div className="container mx-auto py-10"> {/* star container */}
 
         <section>
