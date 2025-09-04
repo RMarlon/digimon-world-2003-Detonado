@@ -1,4 +1,9 @@
 @import "tailwindcss";
+@source "../node_modules/@acmecorp/ui-lib";
+
+html{
+  scroll-behavior: smooth;
+}
 
 :root {
   --background: #ffffff;
@@ -17,6 +22,8 @@
   --font-display--font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   --font-display--font-variation-settings: "opsz" 32;
 }
+
+@theme {  --aspect-retro: 4 / 3; }
 
 @font-face {
   font-family: Digimon WorldDs;

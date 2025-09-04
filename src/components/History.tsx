@@ -11,17 +11,17 @@ export const Welcome = ({ info }: Props) => {
                 <div key={item.id}>
                     <div className="my-10 text-2xl  text-gray-400 p-4 text-justify shadow shadow-[#17ccd6] font-display">
                         <p>
-                            <span className="flex items-center">
-                                <img src={item.imgGoma} alt="imagem gomamon" className="w-40" />
+                            <span className="sm:flex sm:items-center text-[16px] sm:text-2xl">
+                                <img src={item.imgGoma} alt="imagem gomamon" className="w-40 m-auto" />
                                 {item.desc}
                             </span>
 
-                            <span className="text-[#dead39] flex items-center font-bold">
+                            <span className="text-[#dead39] font-bold sm:flex sm:items-center sm:flex-row-reverse text-[16px] sm:text-2xl">
+                                <img src={item.imgTento} alt="imagem tentonmon" className="w-40 m-auto" />
                                 {item.info}
-                                <img src={item.imgTento} alt="imagem tentonmon" className="w-60" />
                             </span>
 
-                            <span className="text-[#d33b49]">
+                            <span className="text-[#d33b49] text-[16px] sm:text-2xl">
                                 {item.desc1}
                             </span>
                         </p>
