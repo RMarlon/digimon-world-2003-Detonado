@@ -5,8 +5,8 @@ export const listNav:Navmenu[] = [
         id:1,
         logo: ['#', 'images/logo.png'],
         imgNav:'images/gabumon.png',
-        linkStart: ['#', 'Início'],
-        linkHistory: ['#', 'História'],
+        linkStart: ['/', 'Início'],
+        linkHistory: ['#history', 'História'],
         linkItems: ['#', 'Itens'],
         linkEvolution: ['#', 'Evoluções'],
         linkCadGame: ['#', 'Card Game']

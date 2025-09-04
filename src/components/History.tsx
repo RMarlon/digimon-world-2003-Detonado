@@ -9,7 +9,7 @@ export const Welcome = ({ info }: Props) => {
         <>
             {info.map(item => (
                 <div key={item.id}>
-                    <div className="my-10 text-2xl  text-gray-400 p-4 text-justify shadow shadow-[#17ccd6] font-display">
+                    <div id="history" className="my-10 text-2xl  text-gray-400 p-4 text-justify shadow shadow-[#17ccd6] font-display">
                         <p>
                             <span className="sm:flex sm:items-center text-[16px] sm:text-2xl">
                                 <img src={item.imgGoma} alt="imagem gomamon" className="w-40 m-auto" />
