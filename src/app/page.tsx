@@ -9,19 +9,9 @@ const Page = () => {
   return (
     <div className="bg-[url(/images/bg-image.png)] bg-cover">
       <div className="container mx-auto py-10"> {/* star container */}
-
-        <section>
           <MenuNav head={listNav} />
-        </section>
-
-        <section>
           <Intro opening={listIntro}/>
-        </section>
-
-         <section>
           <Welcome info={listHistory}/>
-        </section>
-
       </div> {/* end container */}
     </div>
   );
